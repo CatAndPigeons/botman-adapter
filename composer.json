@@ -1,0 +1,16 @@
+{
+    "name": "daikon/botman-adapter",
+    "type": "library",
+    "description": "BotMan adapter for Daikon projects.",
+    "keywords": [ "botman", "adapter" ],
+    "homepage": "https://github.com/daikon-cqrs/botman-adapter",
+    "license": "MPL-2.0",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "botman/botman": "^2.0"
+    },
+    "autoload": {
+        "psr-4": { "Daikon\\BotMan\\" : "src" }
+    }
+}
