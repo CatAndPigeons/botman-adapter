@@ -8,8 +8,8 @@ final class BotMap implements \IteratorAggregate, \Countable
 {
     use TypedMapTrait;
 
-    public function __construct(array $workers = [])
+    public function __construct(array $bots = [])
     {
-        $this->init($workers, BotInterface::class);
+        $this->init($bots, BotInterface::class);
     }
 }
