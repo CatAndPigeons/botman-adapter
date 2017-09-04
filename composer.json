@@ -12,5 +12,9 @@
     },
     "autoload": {
         "psr-4": { "Daikon\\BotMan\\" : "src" }
+    },
+    "suggest": {
+      "botman/driver-slack": "Support for Slack bots.",
+      "mpociot/slack-client": "Support for Slack bots."
     }
 }
